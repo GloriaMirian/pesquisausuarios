@@ -10,7 +10,6 @@ async function addUser() {
   });
 
   alert("Usuário enviado!");
-}
 
 async function deleteUser(id) {
   await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
